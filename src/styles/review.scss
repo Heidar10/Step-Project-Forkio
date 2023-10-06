@@ -1,0 +1,88 @@
+.review {
+  background-image: url("../img/testmonials-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.review__container {
+  padding-top: 57px;
+}
+.review__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 53px;
+}
+
+.review__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 45px;
+
+  @media (min-width: 481px) {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: calc(100vw * 0.05);
+  }
+
+  @media (min-width: 993px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: calc(100vw * 0.05);
+  }
+}
+.review__item {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 481px) {
+    max-width: 315px;
+    justify-self: center;
+  }
+
+  @media (min-width: 993px) {
+    max-width: 345px;
+
+  }
+}
+
+.review__item__logo {
+  margin: auto;
+
+}
+.review__item__message {
+  font-family: 'Lato' ,sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 33px;
+  
+  @media (min-width: 993px) {
+
+    
+  }
+}
+.review__description {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #A291A5;
+  margin-top: 37px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #645766;
+
+  @media (min-width: 993px) {
+    margin-top: 118px;
+  }
+}

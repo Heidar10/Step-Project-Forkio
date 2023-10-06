@@ -1,0 +1,119 @@
+.intro {
+  background-image: url("../img/macbook-small.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+
+  @media (min-width: 768px) {
+    background-image: url("../img/macbook-medium.jpg");
+  }
+
+  @media (min-width: 1200px) {
+    background-image: url("../img/macbook.jpg");
+
+  }
+
+}
+
+.intro__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 50px;
+  margin-top: 0;
+  margin-bottom: 19px;
+
+  @media (min-width: 768px) {
+    padding-top: 70px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 85px;
+  }
+
+}
+.intro__description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #8D81AC;
+  margin-bottom: 14px;
+}
+.intro__versions {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #848E97;
+  text-align: center;
+  padding-bottom: 416px;
+}
+.intro__download-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #8D81AC;
+  padding: 13px 29px;
+  margin:0 auto 25px auto;
+  border-radius: 40px;
+  position: absolute;
+  top: 585px;
+  right: calc(50% - 140px);
+
+  @media (min-width: 532px) {
+    position: absolute;
+    top: 560px;
+  }
+
+  @media (min-width: 768px) {
+    top: 580px;
+  }
+
+  @media (min-width: 1200px) {
+    top: 595px;
+  }
+
+  &:hover{
+    background-color: #FFFFFF;
+    color: #8D81AC;
+    border: 2px solid #8D81AC;
+  }
+}
+.intro__download-link__description {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #848E97;
+  position: absolute;
+  top: 640px;
+  right: calc(50% - 110px);
+  // padding-top: 10px;
+
+  @media (min-width: 532px) {
+    position: absolute;
+    top: 600px;
+  }
+
+  @media (min-width: 768px) {
+    top: 630px;
+  }
+
+  @media (min-width: 1200px) {
+    top: 650px;
+  }
+}
+
